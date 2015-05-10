@@ -25,6 +25,8 @@ proguard/
 
 # Log Files
 *.log
+
+# additional android studio excludes
 gradle.properties
-threegames.iml
-gradle/
+*.iml
+
