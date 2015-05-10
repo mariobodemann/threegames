@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/boats_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/boats_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/base_padding"
+            android:textSize="@dimen/text_size_huge" />
+
+        <ImageView
+            android:layout_width="@dimen/game_image_size"
+            android:layout_height="@dimen/game_image_size"
+            android:contentDescription="@null"
+            android:src="@drawable/only_boat" />
+    </LinearLayout>
+
+
+    <net.bodemann.threegames.views.BoatBoardView
+        android:id="@+id/boat_board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/boats_left_menu"
+        android:background="@android:color/holo_blue_light" />
+
+
+</RelativeLayout>

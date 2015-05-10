@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpieleDrei</string>
+
+    <string name="info_title">Informationen über <xliff description="application name">%1$s</xliff></string>
+
+    <string-array name="info_credits">
+        <item>
+            Vielen Dank fürs Speielen von SpieleDrei. Ich habe es aufgrund von Neugier und als Geschenk
+            für meine kleine Nichte erstellt. Viel Spass mit einer Variante von Memory, Schiffe Versenken,
+            nur muss man hier Schiffe finden, nicht versenken, und beim Finden aller Blumen, ohne dabei
+            zu viele Schritte zu gehen. Mario Bodemann
+        </item>
+        <item>Bilder der Tiere in Suche Paare von freedsign4.me</item>
+        <item>Charaktere für Sammele Blumene: Lanea Zimmerman</item>
+        <item>Blumen von Sammle Blumen: megaicons</item>
+    </string-array>
+
+    <string name="selector_start_boat_game">Finde Boote</string>
+    <string name="selector_start_flower_game">Sammle Blumen</string>
+    <string name="selector_start_memory_game">Suche Paare</string>
+</resources>

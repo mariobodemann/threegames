@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="base_padding">16dp</dimen>
+
+    <dimen name="selector_button_drawable_padding">20dp</dimen>
+    <dimen name="selector_button_text_size">40sp</dimen>
+    <dimen name="game_border">10dp</dimen>
+    <dimen name="text_size_huge">40sp</dimen>
+    <dimen name="game_image_size">70dp</dimen>
+    <dimen name="game_medal_image_width">200dp</dimen>
+    <dimen name="game_medal_image_height">300dp</dimen>
+    <dimen name="info_button_padding">10dp</dimen>
+</resources>

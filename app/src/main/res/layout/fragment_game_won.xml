@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/won_star_1"
+        android:layout_width="@dimen/game_image_size"
+        android:layout_height="@dimen/game_image_size"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/won_star_2"
+        android:layout_width="@dimen/game_image_size"
+        android:layout_height="@dimen/game_image_size"
+        android:contentDescription="@null"/>
+
+    <ImageView
+        android:id="@+id/won_star_3"
+        android:layout_width="@dimen/game_image_size"
+        android:layout_height="@dimen/game_image_size"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/won_star_4"
+        android:layout_width="@dimen/game_image_size"
+        android:layout_height="@dimen/game_image_size"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/won_star_5"
+        android:layout_width="@dimen/game_image_size"
+        android:layout_height="@dimen/game_image_size"
+        android:contentDescription="@null" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/game_medal_image_width"
+        android:layout_height="@dimen/game_medal_image_height"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/won_medal"
+            android:layout_width="@dimen/game_medal_image_width"
+            android:layout_height="@dimen/game_medal_image_height"
+            android:background="@drawable/medal_gold"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/won_target_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/base_padding"
+            android:layout_marginTop="52dp"
+            tools:text="9/9"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_huge"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</FrameLayout>

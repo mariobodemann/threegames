@@ -25,3 +25,6 @@ proguard/
 
 # Log Files
 *.log
+gradle.properties
+threegames.iml
+gradle/

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Three Games</string>
+
+    <string name="info_title">Information about <xliff description="application name">%1$s</xliff></string>
+
+    <string-array name="info_credits">
+        <item>
+            Thanks for playing this game collection. It got created out of curiosity and as a present<br />
+            for my little niece. Have fun playing some variants of memory, sink the ship (here, find the<br />
+            ship) and find all flowers in as minmal steps as possible.<br />
+            <br />
+            Enjoy<br />
+            Mario Bodemann
+        </item>
+        <item>Animals of Find Pairs: freedsign4.me</item>
+        <item>Characters of Collect Flowers Characters: Lanea Zimmerman</item>
+        <item>Image of flower for Collect Flowers: megaicons</item>
+    </string-array>
+
+    <string-array name="info_uri" translatable="false">
+        <item>http://www.karmacoder.net</item>
+        <item>http://www.freedesign4.me/vectors/free-vector-cute-animals/</item>
+        <item>http://opengameart.org/content/tiny-16-basic</item>
+        <item>http://megaicons.net/iconspack-1561/58132/</item>
+    </string-array>
+
+    <string name="selector_start_flower_game">Collect Flowers</string>
+    <string name="selector_start_boat_game">Find Boats</string>
+    <string name="selector_start_memory_game">Find Pairs</string>
+
+    <string name="game_won_medal_numbers" translatable="false">%1$d / %2$d</string>
+
+    <string name="configuration_template" translatable="false">%1$s: %2$s</string>
+    <string name="configuration_title" translatable="false">Configuration</string>
+
+</resources>
